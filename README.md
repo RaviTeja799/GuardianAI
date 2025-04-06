@@ -31,13 +31,22 @@ GuardianAI/
 ├── .env.example          # Env vars template
 └── README.md             # This file
 
-## Prerequisites
-
-- Python 3.9+
-- Node.js 18+ (for frontend)
-- Google Cloud SDK (`gcloud`)
-- Firebase CLI (`firebase-tools`)
-- Google Cloud project: `guardianai-455109`
+# Prerequisites
+Python 3.8+ (for cloud functions)
+Node.js 16+ (for frontend)
+Google Cloud SDK
+A Google Cloud project with Pub/Sub and BigQuery enabled
+Environment variables configured (see .env.example)
 
 ## Setup Instructions
+# Clone the Repository
+
 # GuardianAI
+Features
+Content Preprocessing: Cleans and prepares content for analysis.
+Harmful Content Detection: Identifies potentially harmful content using AI models.
+Actioning Logic: Applies predefined actions based on detection results.
+Review Summaries: Generates concise summaries for human review.
+Feedback Collection: Gathers training feedback to improve model performance.
+Scalable Architecture: Utilizes Google Cloud Functions, Pub/Sub, and BigQuery.
+
