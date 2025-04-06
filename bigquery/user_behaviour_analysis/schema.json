@@ -1,0 +1,32 @@
+[
+    {
+      "name": "user_id",
+      "type": "STRING",
+      "mode": "REQUIRED"
+    },
+    {
+      "name": "analysis_timestamp",
+      "type": "TIMESTAMP",
+      "mode": "REQUIRED"
+    },
+    {
+      "name": "daily_post_counts",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "label_distribution",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "hourly_distribution",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "keyword_counts",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    }
+  ]

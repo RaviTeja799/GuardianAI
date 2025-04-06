@@ -1,0 +1,7 @@
+functions-framework>=3.0.0
+google-cloud-firestore>=2.7.3
+google-cloud-pubsub>=2.9.0
+google-auth>=2.0.0
+requests>=2.25.0
+numpy>=1.19.0
+google-cloud-aiplatform>=1.43.0

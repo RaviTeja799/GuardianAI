@@ -1,0 +1,72 @@
+[
+    {
+      "name": "post_id",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "user_id",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "content_type",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "content",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "timestamp_str",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "label",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "processed_text",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ocr_text",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "safe_search_annotations",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "preprocessing_end_time",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "preprocessing_start_time",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "error_message",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "offensive_content",
+      "type": "BOOLEAN",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "message_id",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    }
+  ]

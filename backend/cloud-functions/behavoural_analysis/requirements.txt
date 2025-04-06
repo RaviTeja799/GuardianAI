@@ -1,0 +1,5 @@
+functions-framework==3.*
+google-cloud-firestore==2.*
+google-cloud-bigquery==3.*
+google-cloud-scheduler>=2.0.0
+functions_framework

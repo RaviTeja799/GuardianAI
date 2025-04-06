@@ -1,0 +1,7 @@
+functions-framework>=3.0.0
+google-cloud-firestore>=2.7.3 # Keep recent version
+google-cloud-vision>=2.7.0  # Use a recent version
+google-cloud-bigquery>=2.34.0 # Use a recent version
+google-cloud-pubsub>=2.9.0   # <-- ADD THIS
+nltk>=3.6.0
+protobuf>=3.18.0 # Dependency often needed explicitly
